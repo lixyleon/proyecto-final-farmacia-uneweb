@@ -49,7 +49,7 @@ $url = "http://" . $_SERVER['HTTP_HOST'] . "/Proyecto_Uneweb_Farmacia"
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item" href="<?php echo $url . "/administrador/seccion/crud_productos/inventario.php"; ?>">Inventario</a></li>
-                            <li><a class="dropdown-item" href="<?php echo $url . "/administrador/seccion/crud_proveedores/proveedores.php"; ?> ">Proveedores</a></li>
+                            <li><a class="dropdown-item" href="<?php echo $url . "/administrador/seccion/crud_proveedores/proveedores.php" ?> ">Proveedores</a></li>
                             <li><a class="dropdown-item" href="<?php echo $url . "/administrador/seccion/crud_empleados/empleados.php"; ?>">Empleados</a></li>
                             <li><a class="dropdown-item" href="<?php echo $url . "/administrador/seccion/crud_ventas/ventas.php"; ?>">Registro de ventas</a></li>
                             <li><a class="dropdown-item" href="<?php echo $url . "/administrador/seccion/crud_pagos/pagos.php"; ?>">Registro de pagos</a></li>
